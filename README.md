@@ -31,6 +31,9 @@ A child-friendly AI voice assistant that combines an ESP32-S3 robot with a Flask
 - OLED Display (128x64)
 - Push button
 
+![WhatsApp Image 2026-04-03 at 07 33 38](https://github.com/user-attachments/assets/3361600c-ab27-488d-9ba7-c9d36f08a97c)
+
+
 ## Prerequisites
 
 - Python 3.8+

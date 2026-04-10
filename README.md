@@ -11,6 +11,9 @@ A child-friendly AI voice assistant built with ESP32-S3 and Python. The robot li
 - **Text-to-Speech**: Speaks the response using Edge TTS
 - **Visual Feedback**: OLED eyes show matching emotions
 
+<img width="883" height="558" alt="image" src="https://github.com/user-attachments/assets/1a5cf196-ea79-43cc-a6e5-77a8f4860a81" />
+
+
 ## 🛒 Parts Needed
 
 ### Electronics
@@ -67,6 +70,7 @@ ESP32-S3 → Button & LED
 │  LED      → GPIO21 (via 330Ω)     │
 └─────────────────────────────┘
 ```
+![WhatsApp Image 2026-04-03 at 07 33 38](https://github.com/user-attachments/assets/f6334f45-a84b-4a64-add3-623945d13686)
 
 ## 📦 Software Setup
 

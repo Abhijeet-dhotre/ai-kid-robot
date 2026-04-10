@@ -21,6 +21,7 @@ A child-friendly AI voice assistant that combines an ESP32-S3 robot with a Flask
                               |
                               +-> [SQLite DB]
 ```
+<img width="883" height="558" alt="image" src="https://github.com/user-attachments/assets/d388c389-7005-49d7-9b41-0bcab3eff7fd" />
 
 ## Hardware
 

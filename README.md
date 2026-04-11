@@ -1,5 +1,5 @@
 # AI Chat Robot for Children
-
+Video demo :- https://www.youtube.com/watch?v=6qxjWUGYwhE
 A child-friendly AI voice assistant built with ESP32-S3 and Python. The robot listens to children, responds with AI-generated answers, and displays emotions on OLED eyes.
 
 ## 🎯 What It Does

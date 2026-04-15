@@ -3,7 +3,7 @@ Video demo :- https://www.youtube.com/watch?v=6qxjWUGYwhE
 
 A child-friendly AI voice assistant built with ESP32-S3 and Python. The robot listens to children, responds with AI-generated answers, and displays emotions on OLED eyes.
 
-## 🎯 What It Does
+## What It Does
 
 - **Voice Input**: Child holds button to speak
 - **Speech Recognition**: Converts audio to text using Whisper
@@ -15,7 +15,7 @@ A child-friendly AI voice assistant built with ESP32-S3 and Python. The robot li
 <img width="883" height="558" alt="image" src="https://github.com/user-attachments/assets/1a5cf196-ea79-43cc-a6e5-77a8f4860a81" />
 
 
-## 🛒 Parts Needed
+## Parts Needed
 
 ### Electronics
 | Part | Quantity | Notes |
@@ -34,7 +34,7 @@ A child-friendly AI voice assistant built with ESP32-S3 and Python. The robot li
 - Soldering iron (optional)
 - 3D printed case (optional)
 
-## 🔌 Wiring Diagram
+## Wiring Diagram
 
 ```
 ESP32-S3 → Microphone (INMP441)
@@ -73,7 +73,7 @@ ESP32-S3 → Button & LED
 ```
 ![WhatsApp Image 2026-04-03 at 07 33 38](https://github.com/user-attachments/assets/f6334f45-a84b-4a64-add3-623945d13686)
 
-## 📦 Software Setup
+## Software Setup
 
 ### 1. Get Groq API Key (Free)
 
@@ -143,7 +143,7 @@ To find your IP:
 - **Windows**: Run `ipconfig` in cmd
 - **Mac/Linux**: Run `hostname -I` in terminal
 
-## 🚀 Running the Server
+## Running the Server
 
 ### Option 1: Using Batch File (Windows)
 ```bash
@@ -164,7 +164,7 @@ python server.py
 - Main server: http://localhost:5050
 - TTS server: http://localhost:8000/tts (returns audio)
 
-## 🤖 Upload ESP32 Code
+## Upload ESP32 Code
 
 ### 1. Install Arduino ESP32 Board
 
@@ -200,7 +200,7 @@ Sketch → Include Library → Manage Libraries:
 4. Enter your WiFi credentials
 5. Robot restarts and connects to WiFi
 
-## 🎮 Using the Robot
+## Using the Robot
 
 1. Start servers on your computer
 2. Hold the button on the robot
@@ -209,14 +209,14 @@ Sketch → Include Library → Manage Libraries:
 5. Robot sends audio → gets response → speaks back
 6. OLED eyes show the detected emotion
 
-## 🌐 Web Interface
+## Web Interface
 
 | Page | URL | Purpose |
 |------|-----|---------|
 | Conversations | http://localhost:5050 | View chat history |
 | Report | http://localhost:5050/report | Development report |
 
-## 📝 API Endpoints
+## API Endpoints
 
 | Endpoint | Method | Description |
 |----------|--------|-------------|
@@ -228,7 +228,7 @@ Sketch → Include Library → Manage Libraries:
 | `/conversations/recompute` | POST | Redetect emotions |
 | `/api/report` | GET | Generate report |
 
-## 🔧 Troubleshooting
+## Troubleshooting
 
 ### "No WiFi" in Serial Monitor
 - Check your WiFi credentials in the code
@@ -247,7 +247,7 @@ Sketch → Include Library → Manage Libraries:
 - Make sure `.env` file exists
 - Check API key is correct
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 ai-robot/
@@ -267,11 +267,8 @@ ai-robot/
     └── report.html            # Report web page
 ```
 
-## 📜 License
 
-MIT
-
-## 🙏 Credits
+## Credits
 
 - [Groq](https://groq.com) - LLM and Whisper API
 - [Edge TTS](https://github.com/rany2/edge-tts) - Free text-to-speech

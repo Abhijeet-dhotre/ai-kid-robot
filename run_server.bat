@@ -1,5 +1,5 @@
 @echo off
-echo Starting Robot Server...
+echo Starting Server...
 
 start "Pocket TTS" cmd /k "uvx pocket-tts serve"
 
